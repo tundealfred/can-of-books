@@ -20,7 +20,19 @@ async function seed() {
       author: "Dale Carnegie",
       status: false,
     },
+    {
+      title: "Charlie and Lola's Opposites",
+      author: "Lauren Child",
+      status: true,
+    },
+    {
+      title: "Charlie and Lola's Opposites II",
+      author: "Lauren Child",
+      status: true,
+    },
   ]);
+
+  console.log("Data inserted");
 
   mongoose.disconnect();
 }
